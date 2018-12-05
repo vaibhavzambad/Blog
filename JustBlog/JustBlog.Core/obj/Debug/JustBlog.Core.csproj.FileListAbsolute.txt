@@ -1,0 +1,17 @@
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\JustBlog.Core.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\JustBlog.Core.pdb
+D:\Learning\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.csprojResolveAssemblyReference.cache
+D:\Learning\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.dll
+D:\Learning\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.pdb
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Antlr3.Runtime.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\FluentNHibernate.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Iesi.Collections.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\NHibernate.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Remotion.Linq.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Remotion.Linq.EagerFetching.dll
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Antlr3.Runtime.xml
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\FluentNHibernate.xml
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Iesi.Collections.xml
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\NHibernate.xml
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Remotion.Linq.xml
+D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Remotion.Linq.EagerFetching.xml
