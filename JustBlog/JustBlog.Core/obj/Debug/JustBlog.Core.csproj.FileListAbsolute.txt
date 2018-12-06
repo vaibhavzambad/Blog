@@ -15,3 +15,17 @@ D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Iesi.Collections.xml
 D:\Learning\JustBlog\JustBlog.Core\bin\Debug\NHibernate.xml
 D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Remotion.Linq.xml
 D:\Learning\JustBlog\JustBlog.Core\bin\Debug\Remotion.Linq.EagerFetching.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\JustBlog.Core.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\JustBlog.Core.pdb
+D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.pdb
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\JustBlog.Core.dll.config
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Ninject.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Ninject.Web.Common.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Ninject.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Ninject.Web.Common.xml

@@ -8,55 +8,55 @@ namespace JustBlog.Core.Objects
 {
     public class Post
     {
-        public virtual int Id
+        public int ID
         {
             get;
             set;
         }
 
-        public virtual string Title
+        public string Title
         {
             get;
             set;
         }
 
-        public virtual string ShortDescription
+        public string ShortDescription
         {
             get;
             set;
         }
 
-        public virtual string Description
+        public string Description
         {
             get;
             set;
         }
 
-        public virtual string Meta
+        public string Meta
         {
             get;
             set;
         }
 
-        public virtual string UrlSlug
+        public string UrlSlug
         {
             get;
             set;
         }
 
-        public virtual bool IsPublished
+        public bool IsPublished
         {
             get;
             set;
         }
 
-        public virtual DateTime PostedOn
+        public DateTime PostedOn
         {
             get;
             set;
         }
 
-        public virtual DateTime? ModifiedOn
+        public DateTime? ModifiedOn
         {
             get;
             set;
@@ -68,7 +68,7 @@ namespace JustBlog.Core.Objects
             set;
         }
 
-        public virtual IList<Tag> Tags
+        public virtual ICollection<Tag> Tags
         {
             get;
             set;

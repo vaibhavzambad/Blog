@@ -8,25 +8,31 @@ namespace JustBlog.Core.Objects
 {
     public class Category
     {
-        public virtual int Id
+        public int ID
         {
             get;
             set;
         }
 
-        public virtual string Name
+        public string Name
         {
             get;
             set;
         }
 
-        public virtual String Description
+        public string UrlSlug
         {
             get;
             set;
         }
 
-        public virtual IList<Post> Posts
+        public String Description
+        {
+            get;
+            set;
+        }
+
+        public virtual ICollection<Post> Posts
         {
             get;
             set;
