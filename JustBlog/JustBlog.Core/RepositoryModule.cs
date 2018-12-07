@@ -12,13 +12,11 @@ namespace JustBlog.Core
     public class RepositoryModule : NinjectModule
     {
         public override void Load()
-        {
+         {
             string connectionString = ConfigurationManager.ConnectionStrings["BlogContext"].ConnectionString;
 
             Kernel.Bind<DbContext>().To<BlogContext>().InSingletonScope().WithConstructorArgument
                 ("connectionString", connectionString);
-
-            Kernel.Bind(typeof(IBlogRepository<>)).To(typeof(GenericBlogRepository<>));
         }
     }
 }

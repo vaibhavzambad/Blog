@@ -1,0 +1,14 @@
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\JustBlog.Core.dll.config
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\JustBlog.Core.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\JustBlog.Core.pdb
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\EntityFramework.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\EntityFramework.SqlServer.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\Ninject.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\Ninject.Web.Common.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\EntityFramework.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\EntityFramework.SqlServer.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\Ninject.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Release\Ninject.Web.Common.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Release\JustBlog.Core.dll
+D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Release\JustBlog.Core.pdb
