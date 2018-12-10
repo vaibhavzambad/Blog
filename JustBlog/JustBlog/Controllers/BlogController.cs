@@ -31,7 +31,7 @@ namespace JustBlog.Controllers
         {
             ListViewModel listViewModel = new ListViewModel(this._postRepository, p);
             ViewBag.Title = "Latest Posts";
-            return View("Index");
+            return View("List",listViewModel);
         }
     }
 }

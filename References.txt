@@ -1,0 +1,5 @@
+References  : http://prideparrot.com/blog/archive/2012/12/how_to_create_a_simple_blog_part1
+			  http://www.4guysfromrolla.com/articles/081507-1.aspx
+			  https://stackoverflow.com/questions/2246251/how-do-i-improve-asp-net-mvc-application-performance
+			  https://stackoverflow.com/questions/15684077/fetch-with-entity-framework
+			  		

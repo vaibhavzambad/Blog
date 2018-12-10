@@ -21,7 +21,7 @@ namespace JustBlog.Tests
             Mock<IBlogRepository<Post>> mockRepo = new Mock<IBlogRepository<Post>>();
             BlogController controller = new BlogController(mockRepo.Object);
             var result = controller.Posts() as ViewResult;
-            Assert.AreEqual("Index", result.ViewName);
+            Assert.AreEqual("List", result.ViewName);
             var title = controller.Posts().ViewBag.Title;
             Assert.AreEqual("Latest Posts", title);
         }

@@ -27,6 +27,6 @@ D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\EntityFramework.xml
 D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
 D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Ninject.xml
 D:\Blog\Blog\JustBlog\JustBlog.Core\bin\Debug\Ninject.Web.Common.xml
+D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.csprojResolveAssemblyReference.cache
 D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.dll
 D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.pdb
-D:\Blog\Blog\JustBlog\JustBlog.Core\obj\Debug\JustBlog.Core.csprojResolveAssemblyReference.cache
