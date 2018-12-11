@@ -33,5 +33,10 @@ namespace JustBlog.Controllers
             ViewBag.Title = "Latest Posts";
             return View("List",listViewModel);
         }
+
+        public ActionResult CreatePost()
+        {
+            return View();
+        }
     }
 }

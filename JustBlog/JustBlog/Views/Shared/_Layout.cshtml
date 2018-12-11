@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>@ViewBag.Title</title>
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/CSS/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/CSS/Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <nav class="navbar navbar-expand-sm sticky-top navbar-dark" style="background-color:#473a67">
@@ -46,7 +46,7 @@
             </form>
         </div>
     </nav>
-    <div class="container">
+    <div class="container mt-4 mb-4">
         @RenderBody()
     </div>
     <footer class="footer text-center">
@@ -54,7 +54,7 @@
             <span class="text-muted">&copy; @DateTime.Now.Year - Blog</span>
         </div>
     </footer>
-    <script type="text/javascript" src="~/Scripts/jquery-3.0.0.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/FrameworkScripts/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/FrameworkScripts/bootstrap.min.js"></script>
 </body>
 </html>

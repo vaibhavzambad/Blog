@@ -1,0 +1,19 @@
+﻿@model JustBlog.Core.Objects.Post
+
+@{
+    ViewBag.Title = "CreatePost";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2> Create Post </h2>
+
+<div id="toolBox" class="mt-4">
+    <div class="row">
+        <div class="col-sm-12">
+            @{Html.RenderPartial("_Toolbar");}
+        </div>
+    </div>
+    <div class="mt-4">
+        @{Html.RenderPartial("_TextArea");}
+    </div>
+</div>
