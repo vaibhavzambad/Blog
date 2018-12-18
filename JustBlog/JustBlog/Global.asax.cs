@@ -1,29 +1,16 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
-using Ninject;
-using JustBlog.Core;
-using Ninject.Web.Common.WebHost;
 
 namespace JustBlog
 {
-    public class MvcApplication : NinjectHttpApplication
+    public class MvcApplication : System.Web.HttpApplication
     {
-        protected override IKernel CreateKernel()
+        protected void Application_Start()
         {
-            IKernel kernel = new StandardKernel();
-            kernel.Load(new RepositoryModule());
-            kernel.Bind(typeof(IBlogRepository<>)).
-                To(typeof(GenericBlogRepository<>));
-
-            return kernel;
-        }
-
-        protected override void OnApplicationStarted()
-        {
-            ViewEngines.Engines.Clear();
-            ViewEngines.Engines.Add(new RazorViewEngine());
-            base.OnApplicationStarted();
+            AreaRegistration.RegisterAllAreas();
+            //FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }

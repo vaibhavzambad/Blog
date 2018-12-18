@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Web.Mvc;
 using JustBlog.Controllers;
 using JustBlog.Core;
-using JustBlog.Core.Objects;
+using JustBlog.Core.Models;
 using Moq;
 
 namespace JustBlog.Tests
@@ -16,14 +11,47 @@ namespace JustBlog.Tests
     public class BlogControllerTest
     {
         [TestMethod]
-        public void TestIndexView()
+        public void Index()
         {
+            // Arrange
             Mock<IBlogRepository<Post>> mockRepo = new Mock<IBlogRepository<Post>>();
             BlogController controller = new BlogController(mockRepo.Object);
-            var result = controller.Posts() as ViewResult;
+
+            // Act
+            ViewResult result = controller.Index() as ViewResult;
+
+            //Assert
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void CreatePost()
+        {
+            // Arrange
+            Mock<IBlogRepository<Post>> mockRepo = new Mock<IBlogRepository<Post>>();
+            BlogController controller = new BlogController(mockRepo.Object);
+
+            // Act
+            ViewResult result = controller.CreatePost() as ViewResult;
+
+            //Assert
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void Posts()
+        {
+            // Arrange
+            Mock<IBlogRepository<Post>> mockRepo = new Mock<IBlogRepository<Post>>();
+            BlogController controller = new BlogController(mockRepo.Object);
+
+            //Act
+            ViewResult result = controller.Posts();
+
+            //Assert
+            Assert.AreEqual("Latest Posts", result.ViewBag.Title);
             Assert.AreEqual("List", result.ViewName);
-            var title = controller.Posts().ViewBag.Title;
-            Assert.AreEqual("Latest Posts", title);
+            Assert.IsNotNull(result.Model);
         }
     }
 }

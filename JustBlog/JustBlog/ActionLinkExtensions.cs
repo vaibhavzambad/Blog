@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
-using JustBlog.Core.Objects;
+using JustBlog.Core.Models;
 
 namespace JustBlog
 {

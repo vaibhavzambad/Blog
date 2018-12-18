@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using JustBlog.Core.Objects;
+using JustBlog.Core.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace JustBlog.Core
 {
-    public class BlogContext:DbContext
+    public class BlogContext:IdentityDbContext<AppUser,AppRole,int,IdentityUserLogin<int>,
+        AppUserRole,IdentityUserClaim<int>>
     {
         public BlogContext() : base("BlogContext")
         {

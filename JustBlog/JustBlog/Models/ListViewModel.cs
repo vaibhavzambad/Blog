@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using JustBlog.Core;
-using JustBlog.Core.Objects;
+using JustBlog.Core.Models;
 
 namespace JustBlog.Models
 {

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
+﻿using JustBlog.Core;
 using Microsoft.Owin;
-using Microsoft.Owin.Cors;
+using Ninject;
+using Ninject.Web.Common.OwinHost;
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(JustBlog.Startup))]
@@ -12,14 +9,20 @@ namespace JustBlog
 {
     public partial class Startup
     {
+        private IKernel _kernel = null;
+
         public void Configuration(IAppBuilder app)
         {
-            // order is very important here
-            app.UseCors(CorsOptions.AllowAll);
-            HttpConfiguration httpConfiguration = new HttpConfiguration();
+            _kernel = CreateKernel();
+            app.UseNinjectMiddleware(() => _kernel);
             ConfigureAuth(app);
+        }
 
-            app.UseWebApi(httpConfiguration);
+        private IKernel CreateKernel()
+        {
+            IKernel kernel = new StandardKernel();
+            kernel.Bind(typeof(IBlogRepository<>)).To(typeof(GenericBlogRepository<>));
+            return kernel;
         }
     }
 }

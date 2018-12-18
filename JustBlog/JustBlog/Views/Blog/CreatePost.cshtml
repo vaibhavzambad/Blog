@@ -1,4 +1,4 @@
-﻿@model JustBlog.Core.Objects.Post
+﻿@model JustBlog.Core.Models.Post
 
 @{
     ViewBag.Title = "CreatePost";
@@ -7,6 +7,49 @@
 
 <h2> Create Post </h2>
 
+<div class="row">
+    <div class="col-sm-2">
+        <span> Category: </span>
+    </div>
+    <div class="col-sm">
+        <select>
+            <option selected> None </option>
+            <option> Programming </option>
+            <option> Software Engineering </option>
+        </select>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-sm-2">
+        <span> Tags: </span>
+    </div>
+    <div class="col-sm">
+        <select>
+            <option selected> None </option>
+            <option> C# </option>
+            <option> ASP.NET </option>
+        </select>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-sm-2">
+        <span> Title: </span>
+    </div>
+    <div class="col-sm">
+        <span>@Html.TextBox("Title",string.Empty)</span>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-sm-2">
+        <span> Short Description:  </span>
+    </div>
+    <div class="col-sm">
+        <span>@Html.TextBox("ShortDescription", string.Empty)</span>
+    </div>
+</div>
 <div id="toolBox" class="mt-4">
     <div class="row">
         <div class="col-sm-12">
@@ -15,5 +58,10 @@
     </div>
     <div class="mt-4">
         @{Html.RenderPartial("_TextArea");}
+    </div>
+</div>
+<div class="row">
+    <div class="ml-4 col-sm-4">
+
     </div>
 </div>
